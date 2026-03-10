@@ -7,7 +7,11 @@
 </head>
 
 <body>
-<h1>Velkommen til Message Board</h1>
-<a href="/createuser">Opret bruger</a>
+<h1>Opret bruger</h1>
+<form method="post" th:action="@{/createuser}">
+    <input type="text" name="username" placeholder="Indtast brugernavn">
+    <input type="password" name="password" placeholder="Indtast password">
+    <button type="submit">Opret</button>
+</form>
 </body>
 </html>

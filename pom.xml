@@ -87,13 +87,9 @@
             <version>${hamcrest.version}</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
-
     <build>
-
         <finalName>app</finalName>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
